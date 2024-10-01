@@ -166,6 +166,7 @@ button {
         width: 15em;
         margin: 1em auto;
         padding: 1em;
+        height: 30em;
     }
 
     .form form input {
