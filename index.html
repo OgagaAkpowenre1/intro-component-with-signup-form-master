@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Akpowenre</a>.
+    </p> -->
+    <main class="form-component">
+      <section class="text">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <section class="form">
+        <button class="free-trial-btn"> <b>Try it free 7 days</b> then $20/mo. thereafter</button>
+        <form action="" id="signup-form">
+          <input type="text" placeholder="First Name"  id="first-name" />
+          <small class="error-message">First Name cannot be empty</small>
+
+          <input type="text" placeholder="Last Name" id="last-name" />
+          <small class="error-message">Last Name cannot be empty</small>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+            
+          />
+          <small class="error-message">Looks like this is not an email</small>
+
+          <input type="password" name="password" id="password" placeholder="Password" />
+          <small class="error-message">Password cannot be empty</small>
+
+          <button type="submit">Claim your free trial</button>
+          <p>
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </form>
+        
+      </section>
+
+      <footer>
+        
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
